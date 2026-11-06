@@ -1,31 +1,31 @@
 # Churn Rate
 
-Churn rate measures the share of customers or recurring revenue lost over a defined period. Customer churn counts departing accounts. Revenue churn measures the money lost through cancellations and, under some definitions, downgrades.
+Churn rate measures customers or recurring revenue lost over a period. A customer churns when they cancel or stop meeting the business's definition of an active customer. Revenue churn measures the money lost, which can tell a very different story.
 
-**Basic customer churn formula:** Customers lost from the starting customer group ÷ customers at the start of the period × 100.
+## The quiet month that lost a fifth of revenue
 
-## Why can 5% customer churn be expensive?
+A hypothetical software company begins the month with 250 paying accounts and $40,000 in monthly recurring revenue.
 
-Suppose a hypothetical subscription company starts a month with 500 paying customers and $25,000 in monthly recurring revenue (MRR).
+Ten accounts cancel. Its customer churn rate is **10 ÷ 250 = 4%**.
 
-During the month, 25 starting customers cancel. Customer churn is **25 ÷ 500 = 5%**.
+Those ten accounts, however, had been paying a combined $8,000 per month. The company has lost **$8,000 ÷ $40,000 = 20%** of its starting recurring revenue through cancellations.
 
-Those accounts contributed $4,000 of starting MRR. Revenue lost to these cancellations is **$4,000 ÷ $25,000 = 16%** of starting MRR, before any downgrades.
+A dashboard that shows 4% churn may look tolerable. Losing one-fifth of revenue is harder to ignore.
 
-The company lost relatively few accounts, but those accounts were more valuable than average. A dashboard showing only customer churn would understate the revenue problem.
+These are two different calculations. New customers acquired during the month do not belong in the starting customer group. Downgrades also reduce revenue, even when the customer stays.
 
-For this simple calculation, keep people who both joined and canceled during the month separate from the starting customer group.
+## Find out who left
 
-## How do you investigate churn?
+Suppose eight of the cancellations are small accounts that never completed onboarding, but two are large customers who used the product for years.
 
-Segment by signup cohort, plan, customer size, and onboarding behavior. Are new accounts leaving before setup? Did mature customers quit after a price increase? Are some accounts downgrading but still using the product?
+The first group might be struggling to get started. The large accounts might have switched to a competitor, lost budget or found the product unreliable. Treating all ten departures as an email win-back problem would waste time.
 
-Look at what happened before cancellation and what customers say afterward. Avoid treating a drop in logins as subscription churn if the customer still pays for and receives the service.
+Review cancellation reasons alongside usage, support history, plan type and signup cohort. In a paid subscription, an inactive login is not the same as a canceled account. In a free product, inactivity may be the relevant churn event.
 
-## What does churn change about growth?
+## Decide what to repair
 
-Higher churn weakens [customer retention](https://startup-growth.github.io/growth-marketing-glossary/terms/customer-retention/) and can reduce [lifetime value](https://startup-growth.github.io/growth-marketing-glossary/terms/customer-lifetime-value-clv-ltv/). It also makes [acquisition spending](https://startup-growth.github.io/growth-marketing-glossary/terms/customer-acquisition-cost-cac/) harder to recover.
+If early cancellations are concentrated among customers who never reach value, investigate [activation](https://startup-growth.github.io/growth-marketing-glossary/terms/activation-rate/). If mature accounts leave after recurring reliability failures, fixing onboarding won't help.
 
-[Cohort analysis](https://startup-growth.github.io/growth-marketing-glossary/terms/cohort-analysis/) helps distinguish a genuine retention improvement from growth driven by a large number of newly acquired accounts.
+Use [cohort analysis](https://startup-growth.github.io/growth-marketing-glossary/terms/cohort-analysis/) to see whether newer customers are staying longer or shorter than older ones. Churn also affects [lifetime value](https://startup-growth.github.io/growth-marketing-glossary/terms/customer-lifetime-value-clv-ltv/) and how much the company can afford to spend on [acquisition](https://startup-growth.github.io/growth-marketing-glossary/terms/customer-acquisition-cost-cac/).
 
 **Further reading:** [ChartMogul on customer churn rate](https://help.chartmogul.com/article/203-chart-customer-churn-rate).
