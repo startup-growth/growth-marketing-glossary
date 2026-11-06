@@ -1,31 +1,31 @@
 # CAC Payback Period
 
-CAC payback period estimates how long a customer takes to generate enough gross profit to recover their acquisition cost. It shows how quickly money spent acquiring customers comes back through the product.
+CAC payback period estimates how long it takes a new customer to generate enough gross profit to cover the money spent acquiring them. A company can make money on a customer eventually and still run short of cash while waiting.
 
-## How do you calculate CAC payback?
+## The customer who needed eight months but left after six
 
-Suppose a hypothetical subscription company spends $360 to acquire a customer. The customer pays $60 per month, and the product has an 80% gross margin.
+A hypothetical subscription business spends $360 to acquire a customer. The plan costs $60 per month, with an 80% gross margin.
 
-Monthly gross profit is **$60 × 80% = $48**.
+That leaves **$60 × 80% = $48 in gross profit per month**.
 
-Using steady revenue and margin as simplifying assumptions, CAC payback is **$360 ÷ $48 = 7.5 months**.
+Under steady revenue and margin, the simple CAC payback period is **$360 ÷ $48 = 7.5 months**.
 
-Dividing $360 by monthly revenue would give six months. That calculation ignores the direct costs of providing the service and overstates how quickly the business recovers acquisition spending.
+But suppose this particular customer cancels after six monthly payments. The business collects only **6 × $48 = $288** in gross profit. It is still $72 short of recovering the acquisition cost.
 
-## What makes the payback estimate unreliable?
+A report that divides $360 by $60 and claims a six-month payback ignores the cost of serving the customer. It would declare success just as this customer leaves.
 
-The example assumes the customer pays $60 every month and that gross margin stays at 80%. Cancellations, refunds, discounts, changing usage costs, and annual prepayments can alter the actual cash timeline.
+## Payback is not the same for every customer
 
-Acquisition costs may also occur long before the first payment. A company with a six-month sales cycle needs to account for that delay when planning cash.
+A channel attracting annual subscribers who pay up front creates a different cash pattern from one attracting monthly subscribers. Discounts, refunds, onboarding costs and changes in usage can alter the result further.
 
-Use a consistent version of [CAC](https://startup-growth.github.io/growth-marketing-glossary/terms/customer-acquisition-cost-cac/). Media-only CAC and fully loaded CAC will give different payback periods, and neither should be swapped into a report without explanation.
+For a long sales cycle, the company may spend on ads and sales months before the first invoice. A simple gross-profit payback estimate does not capture all that timing.
 
-## How does payback differ from LTV:CAC?
+Use the same [CAC definition](https://startup-growth.github.io/growth-marketing-glossary/terms/customer-acquisition-cost-cac/) every time. Media-only acquisition cost will produce a shorter payback than a measure that includes sales staff, agencies and other acquisition expenses.
 
-[LTV:CAC](https://startup-growth.github.io/growth-marketing-glossary/terms/ltv-cac-ratio/) compares expected total customer value with acquisition cost. Payback asks when the acquisition cost is recovered.
+## Which campaign deserves the next dollar?
 
-Two customers can have similar lifetime value but very different payment schedules. The one who pays sooner can be easier to acquire at scale when cash is limited.
+Compare customer cohorts rather than applying one blended average everywhere. Suppose one campaign has cheaper first purchases but its customers cancel after a month. Another costs more and attracts customers who pay for a year. The lower initial CAC does not settle the budget decision.
 
-Compare payback by customer cohort and acquisition channel. Check [unit economics](https://startup-growth.github.io/growth-marketing-glossary/terms/unit-economics/) to make sure the gross-profit calculation includes the appropriate cost of service.
+[LTV:CAC](https://startup-growth.github.io/growth-marketing-glossary/terms/ltv-cac-ratio/) estimates the relationship between lifetime value and acquisition cost. Payback adds the timing. Check both against actual [retention](https://startup-growth.github.io/growth-marketing-glossary/terms/customer-retention/) and [gross profit](https://startup-growth.github.io/growth-marketing-glossary/terms/unit-economics/) before expanding spend.
 
-**Further reading:** [ChartMogul's SaaS metrics reference](https://chartmogul.com/saas-metrics/cheat-sheet/).
+**Reference:** [ChartMogul's SaaS metrics overview](https://chartmogul.com/saas-metrics/cheat-sheet/).
