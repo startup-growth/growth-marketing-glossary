@@ -1,27 +1,35 @@
 # Time to Value (TTV)
 
-Time to value (TTV) measures the time between a customer's starting point and the moment they receive a meaningful benefit from a product. Completing setup is not necessarily the result they came for.
+Time to value (TTV) is how long a new customer takes to get a meaningful benefit from a product. It is not necessarily the time spent creating an account or completing setup. Those steps may be necessary, but the customer still needs a result.
 
-## When has someone actually received value?
+## A scheduling product that onboarded people quickly
 
-Consider a hypothetical reporting tool. A new user signs up, connects a data source, and builds a chart. The team calls the connection event its activation milestone.
+Consider a hypothetical booking tool for salons. Its team celebrates because most new owners finish setup in fifteen minutes.
 
-But the user wanted to understand which campaigns generated qualified leads. Their first useful result may be opening a trustworthy report that connects spend to those leads. A working import is a step toward that result, not the result itself.
+But setting business hours and choosing a calendar colour is not why the salons signed up. They want customers to book appointments without phoning the front desk.
 
-## How do you calculate time to value?
+Of 300 new salons in a month:
 
-Choose a consistent start event, a meaningful value event, and a measurement window. For each user who reaches value, calculate the elapsed time between those events.
+- 240 finish setup.
+- 180 receive a first real customer booking within fourteen days.
+- Among those 180 salons, the median time from signup to first booking is three days.
 
-Suppose 200 new accounts join the tool. Within seven days, 120 reach the value event, with a median elapsed time of two hours among those 120.
+The setup completion rate is **80%**. The share receiving first value within fourteen days is **60%**.
 
-Reporting only **two hours** hides the **80 accounts that never reached value during the window**. Report the completion share alongside the elapsed time, and document how accounts with missing or incomplete tracking are handled.
+Reporting only “three days to value” hides the 120 salons that never reached that milestone during the window.
 
-Different user types may also need different value events. A team administrator might need to invite colleagues, while an analyst needs to produce a report.
+## Follow the ones who got stuck
 
-## What shortens time to value?
+The team watches a few owners try to accept their first booking. Some build their calendar but never publish the booking link on their website. Others send the link to customers but find that their available times display incorrectly.
 
-Look at the actual obstacle before redesigning onboarding. If imports fail, fix import reliability. If data connects but the next action is unclear, improve the reporting workflow.
+Another onboarding checklist is unlikely to solve both problems. One group needs help sharing the link. The other needs a scheduling fix.
 
-[Activation rate](https://startup-growth.github.io/growth-marketing-glossary/terms/activation-rate/) measures how many users reach a selected milestone. TTV measures how long reaching value takes. Evaluate both against later [customer retention](https://startup-growth.github.io/growth-marketing-glossary/terms/customer-retention/). [Lifecycle messaging](https://startup-growth.github.io/growth-marketing-glossary/terms/lifecycle-marketing/) can help people return to an unfinished task but cannot repair a broken integration.
+The next release might make the booking link easier to copy and highlight failed availability checks. Then the team can compare first-booking rates for new salons.
 
-**Further reading:** [Amplitude on time to value and retention](https://amplitude.com/blog/time-to-value-drives-user-retention).
+## Define value for the actual customer
+
+A restaurant reservation system, a payroll tool and a social app should not share an activation event. Even within the same product, an account administrator may need a different first result from an end user.
+
+[Activation rate](https://startup-growth.github.io/growth-marketing-glossary/terms/activation-rate/) measures the share reaching a first-value milestone. TTV adds the time it takes. Check whether faster first value predicts later [retention](https://startup-growth.github.io/growth-marketing-glossary/terms/customer-retention/), rather than assuming it does. [Lifecycle messages](https://startup-growth.github.io/growth-marketing-glossary/terms/lifecycle-marketing/) can help customers finish a task, but they cannot make a broken workflow work.
+
+**Further reading:** [Amplitude on time to value](https://amplitude.com/blog/time-to-value-drives-user-retention).
