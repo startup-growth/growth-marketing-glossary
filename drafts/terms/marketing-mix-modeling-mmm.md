@@ -1,33 +1,31 @@
 # Marketing Mix Modeling (MMM)
 
-Marketing mix modeling (MMM) uses historical aggregate data to estimate how marketing activity relates to business results, such as sales or revenue. Models typically account for other influences, including seasonality, promotions, and prices.
+Marketing mix modeling (MMM) uses past sales and marketing data to estimate how different activities contribute to business results. Unlike a click-based attribution report, it can work with aggregate spend and sales numbers. It still needs enough variation in the data to separate marketing effects from everything else happening at the same time.
 
-MMM helps compare channels when individual customer click paths are incomplete. Its outputs remain estimates, not an automatic record of what caused each sale.
+## Sales rose after the ad budget doubled
 
-## Did the advertising cause the extra sales?
+A hypothetical outdoor retailer spends $20,000 on paid social in October and $40,000 in November. Revenue rises from $500,000 to $700,000.
 
-Imagine a hypothetical retailer doubles paid social spending during a holiday promotion. Revenue also rises sharply.
+The marketing team wants to credit the extra $200,000 to paid social. But November also has a holiday promotion, more email activity and stronger seasonal demand for winter clothing.
 
-An advertising dashboard may credit many purchases to paid social. But the promotion, seasonal demand, and an email campaign all changed at about the same time.
+The two months are not a clean test of the social budget. Dividing the sales increase by the additional ad spend would produce an impressive-looking number with almost no causal meaning.
 
-An MMM attempts to distinguish their contributions using observations over many periods. It may also estimate diminishing returns: doubling spend does not necessarily double the resulting sales.
+An MMM tries to estimate the separate relationships using a longer history of spend, revenue, promotions and other relevant factors.
 
-If media spend always rises at the same time as a promotion, the data may not support a clean separation. A complicated model cannot repair missing variation by itself.
+## What goes into the model?
 
-## What information does an MMM need?
+The retailer collects weekly sales and marketing spend across channels, along with promotions, prices and holidays. It may add weather if it affects demand for its products.
 
-Typical inputs include channel spend or exposure, sales or other business outcomes, promotions, price changes, holidays, and relevant outside factors.
+The model could suggest that additional social spending produces diminishing returns. But if every channel spends more during the same holiday weeks, separating their contributions may be difficult.
 
-The data needs enough history and meaningful variation. A startup with one small paid channel and sparse purchases may not have a reliable signal for this approach.
+A small startup with a handful of campaigns and little historical variation should be cautious about treating MMM output as a precise budget instruction. The uncertainty matters as much as the estimate.
 
-Evaluate uncertainty and check whether the model's predictions remain plausible against evidence not used to fit it.
+## Use the estimate to test a decision
 
-## How does MMM differ from attribution?
+Suppose the model suggests that adding spend to paid social is less productive than the platform dashboard implies. The team could test a measured budget reallocation in selected markets or periods, while watching sales and margin.
 
-[Marketing attribution](https://startup-growth.github.io/growth-marketing-glossary/terms/marketing-attribution/) assigns credit along recorded conversion paths. MMM estimates how aggregate activity relates to outcomes across time.
+[Attribution](https://startup-growth.github.io/growth-marketing-glossary/terms/marketing-attribution/) assigns credit along observed customer paths. [Incrementality testing](https://startup-growth.github.io/growth-marketing-glossary/terms/incrementality-testing/) investigates what advertising caused, often through holdouts. MMM uses aggregate history to estimate contributions and budget response. Each can challenge assumptions from the others.
 
-[Incrementality testing](https://startup-growth.github.io/growth-marketing-glossary/terms/incrementality-testing/) uses an experimental comparison to estimate outcomes advertising caused. These experiments can be useful for challenging or calibrating model estimates.
-
-Use MMM as one input to budget decisions, not as a reason to shift spend without understanding uncertainty, cash constraints, or the business's [acquisition economics](https://startup-growth.github.io/growth-marketing-glossary/terms/customer-acquisition-cost-cac/).
+The decision is not whether the model looks sophisticated. It is whether the evidence is strong enough to justify moving real money.
 
 **Further reading:** [Google's media effectiveness measurement guide](https://business.google.com/ca-en/think/marketing-strategies/cmo-guide-measuring-media-effectiveness/).
