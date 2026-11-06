@@ -4,11 +4,11 @@
 
 [**Browse the Growth Marketing Glossary**](https://startup-growth.github.io/growth-marketing-glossary/)
 
-Growth marketing has its own vocabulary. This glossary explains 25 concepts used to plan, run, and measure growth work. Each guide covers what a term means, how it comes up in practice, and how it relates to other concepts. Many include worked examples and calculations.
+Growth marketing has its own vocabulary. This glossary explains 33 concepts used to plan, run, and measure growth work. Each guide covers what a term means, how it comes up in practice, and how it relates to other concepts. Many include worked examples and calculations.
 
 It's written for startup founders, growth marketers, marketing teams, and anyone learning how customer acquisition, activation, retention, and business economics fit together.
 
-## Explore the 25 terms
+## Explore the 33 terms
 
 ### [Growth strategy and frameworks](https://startup-growth.github.io/growth-marketing-glossary/topics/strategy/)
 
@@ -28,6 +28,10 @@ It's written for startup founders, growth marketers, marketing teams, and anyone
 - [Incrementality Testing](https://startup-growth.github.io/growth-marketing-glossary/terms/incrementality-testing/)
 - [Cohort Analysis](https://startup-growth.github.io/growth-marketing-glossary/terms/cohort-analysis/)
 - [Marketing Attribution](https://startup-growth.github.io/growth-marketing-glossary/terms/marketing-attribution/)
+- [Conversion Rate](https://startup-growth.github.io/growth-marketing-glossary/terms/conversion-rate/)
+- [Funnel Analysis](https://startup-growth.github.io/growth-marketing-glossary/terms/funnel-analysis/)
+- [Experiment Guardrail Metrics](https://startup-growth.github.io/growth-marketing-glossary/terms/experiment-guardrail-metrics/)
+- [Marketing Mix Modeling (MMM)](https://startup-growth.github.io/growth-marketing-glossary/terms/marketing-mix-modeling-mmm/)
 
 ### [Activation and retention](https://startup-growth.github.io/growth-marketing-glossary/topics/retention/)
 
@@ -35,6 +39,8 @@ It's written for startup founders, growth marketers, marketing teams, and anyone
 - [Customer Retention](https://startup-growth.github.io/growth-marketing-glossary/terms/customer-retention/)
 - [Lifecycle Marketing](https://startup-growth.github.io/growth-marketing-glossary/terms/lifecycle-marketing/)
 - [Conversion Rate Optimization (CRO)](https://startup-growth.github.io/growth-marketing-glossary/terms/conversion-rate-optimization-cro/)
+- [Time to Value (TTV)](https://startup-growth.github.io/growth-marketing-glossary/terms/time-to-value/)
+- [Churn Rate](https://startup-growth.github.io/growth-marketing-glossary/terms/churn-rate/)
 
 ### [Acquisition and channels](https://startup-growth.github.io/growth-marketing-glossary/topics/acquisition/)
 
@@ -49,6 +55,8 @@ It's written for startup founders, growth marketers, marketing teams, and anyone
 - [Customer Acquisition Cost (CAC)](https://startup-growth.github.io/growth-marketing-glossary/terms/customer-acquisition-cost-cac/)
 - [LTV:CAC Ratio](https://startup-growth.github.io/growth-marketing-glossary/terms/ltv-cac-ratio/)
 - [Unit Economics](https://startup-growth.github.io/growth-marketing-glossary/terms/unit-economics/)
+- [Net Revenue Retention (NRR)](https://startup-growth.github.io/growth-marketing-glossary/terms/net-revenue-retention-nrr/)
+- [CAC Payback Period](https://startup-growth.github.io/growth-marketing-glossary/terms/cac-payback-period/)
 
 ## Suggest a term or correction
 
