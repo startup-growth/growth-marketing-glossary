@@ -1,10 +1,10 @@
-# New growth marketing glossary entries
+# Eight additional growth marketing glossary drafts
 
-**Status: Editorial drafts, not published pages.**
+**Status: Editorial drafts for review. These are not published glossary pages.**
 
-These eight entries extend the existing 25-term glossary. They use short definitions, hypothetical worked examples, and a small number of contextual internal links.
+These entries are written to match the existing glossary: a straightforward definition, a hypothetical example that shows a real marketing or product decision, and practical guidance on what to check next.
 
-## Drafts
+## Review the drafts
 
 - [Conversion Rate](terms/conversion-rate.md)
 - [Funnel Analysis](terms/funnel-analysis.md)
@@ -15,18 +15,20 @@ These eight entries extend the existing 25-term glossary. They use short definit
 - [Experiment Guardrail Metrics](terms/experiment-guardrail-metrics.md)
 - [Marketing Mix Modeling (MMM)](terms/marketing-mix-modeling-mmm.md)
 
-## Editorial choices
+## Editorial approach
 
-- Keep the current glossary's concise voice and business-first examples.
-- Apply Koray-inspired structure only where it helps readers: clear definitions, relevant attributes and formulas, precise subheadings, and links inside explanations.
-- Avoid keyword-stuffed headings, search-engine terminology, decorative EAV cards, and generic summary sections.
-- Add tables only to clarify comparisons or a calculation.
-- Use the full GitHub Pages URL path for links to currently published glossary terms.
-- Keep links to third-party sources as further reading. No promotional links to the author's other projects.
-- Numerical scenarios are hypothetical, not claims about real customer results.
+- Use the 25 already published entries as the writing reference, especially their clear openings and concrete, example-driven explanations.
+- Give each new entry a distinct job. Conversion Rate focuses on denominator and traffic mix; Funnel Analysis focuses on diagnosing a measured journey.
+- Make illustrative numbers explicit and arithmetically consistent.
+- Explain what a founder, marketer, analyst, or product team might actually do next.
+- Include contextual links to related existing definitions where they help the explanation.
+- Avoid promotional links, repetitive templates, unearned conclusions, and extra terminology for its own sake.
+- Retain references for further reading without presenting hypothetical examples as real-world results.
 
-## Before publication
+## Publication gate
 
-These Markdown files are drafts. Do not merge and assume they are indexed articles. Publishing requires a separate review and conversion to the site's existing HTML page format. Check the content, canonical URLs, contextual links, A to Z index, topic directories, and the **site-wide root sitemap** before making pages public.
+The Markdown files are drafts, not a live publishing format. The existing 25 HTML term pages, navigation, and sitemap have not changed.
 
-**This draft PR does not alter live articles, navigation, the homepage, or either sitemap.**
+Publishing requires separate reviewed HTML pages plus updates to the A to Z glossary, relevant topic pages, contextual links, and the consolidated sitemap in the root GitHub Pages repository. Verify canonical URLs and deployed pages before submission to search engines.
+
+**Review these drafts before publishing.**
