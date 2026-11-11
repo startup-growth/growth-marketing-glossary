@@ -138,3 +138,8 @@ footer p { margin: 0; }
   .nav { padding-top: 18px; }
   .nav div a { font-size: 15px; }
 }
+
+/* Concise glossary definitions on the homepage. */
+.glossary-index li { margin-bottom: 20px; }
+.glossary-index li strong { font-weight: 600; }
+.glossary-index li p { font-size: 16px; line-height: 1.45; margin: 4px 0 0; }
